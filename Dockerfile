@@ -20,5 +20,6 @@ RUN npm install node-red-node-redis --save
 RUN npm install node-red-node-timeswitch --save 
 RUN npm install node-red-contrib-chatbot --save 
 RUN npm install node-red-contrib-alexa-home-skill --save 
+RUN npm install node-red-hh-lora-decode --save 
 
 COPY settings.js /data/
